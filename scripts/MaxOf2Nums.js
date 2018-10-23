@@ -1,10 +1,11 @@
-console.log("You made it to the LandscapePortrait.js!");
+console.log("I made it to MaxOf2Nums.js!");
+
 let stop = false;
 
 function javaScript () {
 
 }
-
+/
 function main () {
 
   let firstNumber, secondNumber;
@@ -23,7 +24,7 @@ function main () {
   document.getElementById("validityTest2").innerHTML = testNaN (secondNumber);
 
   if (stop == true) {
-    document.getElementById("answer").innerHTML = "Restart my heart and soul"
+    document.getElementById("answer").innerHTML = "Restart because you're AWESOME!" 
   }
   else {
 
@@ -39,4 +40,7 @@ function testNaN (number) {
   } else {
     return "Input Validated"
   }
+
+
+
 }
