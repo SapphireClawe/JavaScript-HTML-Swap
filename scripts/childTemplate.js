@@ -16,7 +16,7 @@ function main () {
 
   if (stop == true) {
     document.getElementById("large").innerHTML = "Please restart"
-    else
+  
 
   }
 
